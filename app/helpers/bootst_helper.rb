@@ -1,0 +1,2 @@
+module BootstHelper
+end

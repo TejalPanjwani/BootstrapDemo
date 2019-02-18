@@ -1,0 +1,64 @@
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+
+
+
+  .btn-size
+  {
+      width: 110px;
+      height: 45px;
+  }
+
+
+  
+   .container .jumbotron { 
+    max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
+    height: 510px;
+    
+  }
+  
+  .jumbotron h1 { 
+    text-align: center; /* centers the heading */
+    color: #DDD;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
